@@ -1,0 +1,394 @@
+training:
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000001_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000001_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000003_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000003_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000006_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000006_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000007_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000007_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000010_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000010_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000013_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000013_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000015_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000015_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000017_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000017_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000020_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000020_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000022_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000022_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000023_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000023_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000024_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000024_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000025_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000025_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000028_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000028_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000029_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000029_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000030_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000030_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000032_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000032_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000033_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000033_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000034_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000034_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000036_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000036_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000037_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000037_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000039_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000039_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000040_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000040_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000041_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000041_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000043_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000043_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000044_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000044_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000045_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000045_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000046_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000046_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000047_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000047_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000048_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000048_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000049_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000049_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000050_C0001_B101_V01.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000050_C0001_B101_V01.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000052_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000052_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000053_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000053_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000054_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000054_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000055_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000055_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000056_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000056_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000057_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000057_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000058_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000058_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000059_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000059_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000060_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000060_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000061_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000061_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000062_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000062_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000063_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000063_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000064_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000064_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000065_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000065_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000066_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000066_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000067_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000067_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000069_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000069_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000070_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000070_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000071_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000071_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000072_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000072_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000074_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000074_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000075_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000075_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000076_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000076_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000077_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000077_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000078_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000078_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000079_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000079_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000080_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000080_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000081_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000081_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000082_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000082_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000083_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000083_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000084_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000084_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000085_C0001_B103.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000085_C0001_B103.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000086_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000086_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000087_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000087_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000088_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000088_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000089_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000089_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000090_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000090_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000092_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000092_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000095_C0001_B102.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000095_C0001_B102.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000098_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000098_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000099_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000099_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000100_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000100_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000242_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000242_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000753_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000753_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000800_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000800_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000860_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000860_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P001116_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P001116_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P001260_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P001260_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P001328_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P001328_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P001422_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P001422_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P001739_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P001739_C0001_B101.tif
+validation:
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000002_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000002_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000004_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000004_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000005_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000005_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000009_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000009_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000011_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000011_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000012_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000012_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000014_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000014_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000016_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000016_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000018_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Normal/EN_S01_P000018_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000019_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000019_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000026_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Carcinoma/EN_S01_P000026_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000027_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000027_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000031_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000031_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000038_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_without_atypia/EN_S01_P000038_C0001_B101.tif
+- wsa:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000042_C0001_B101.xml
+  wsi:
+    path: /data/pathology/archives/endometrium/endoaid/tif_format_05spacing/Hyperplasia_with_atypia/EN_S01_P000042_C0001_B101.tif
