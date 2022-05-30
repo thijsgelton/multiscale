@@ -43,8 +43,8 @@ class YnetLitModule(LightningModule):
 
         # use separate metric instance for train, val and test step
         # to ensure a proper reduction over the epoch
-        # self.train_dice = Dice(num_classes=6)
-        # self.val_dice = Dice(num_classes=6)
+        self.train_dice = Dice(num_classes=6)
+        self.val_dice = Dice(num_classes=6)
 
         self.class_name_to_onehot = {
             "Normal": torch.Tensor([1, 0, 0, 0, 0, 0]),
@@ -52,15 +52,15 @@ class YnetLitModule(LightningModule):
             "Hyperplasia_with_atypia": torch.Tensor([0, 0, 1, 0, 0, 0]),
             "Carcinoma": torch.Tensor([0, 0, 0, 1, 0, 0])
         }
-        # self.val_dice_best = MaxMetric()
+        self.val_dice_best = MaxMetric()
 
     def forward(self, x: tuple):
         return self.net(*x)
 
-    # def on_train_start(self):
-    #     # by default lightning executes validation step sanity checks before training starts,
-    #     # so we need to make sure val_dice_best doesn't store accuracy from these checks
-    #     self.val_dice_best.reset()
+    def on_train_start(self):
+        # by default lightning executes validation step sanity checks before training starts,
+        # so we need to make sure val_dice_best doesn't store accuracy from these checks
+        self.val_dice_best.reset()
 
     def step(self, batch: Any):
         x, y, info = batch
@@ -77,33 +77,33 @@ class YnetLitModule(LightningModule):
         loss, preds, targets = self.step(batch)
 
         # log train metrics
-        # dice = self.train_dice(preds, targets)
+        dice = self.train_dice(preds, targets)
         self.log("train/loss", loss, on_step=False, on_epoch=True, prog_bar=False)
-        # self.log("train/dice", dice, on_step=False, on_epoch=True, prog_bar=True)
+        self.log("train/dice", dice, on_step=False, on_epoch=True, prog_bar=True)
 
         # we can return here dict with any tensors
         # and then read it in some callback or in `training_epoch_end()` below
         # remember to always return loss from `training_step()` or else backpropagation will fail!
-        return {"loss": loss, "preds": preds, "targets": targets}
+        return {"loss": loss}
 
-    # def training_epoch_end(self, outputs: List[Any]):
-    #     self.train_dice.reset()
+    def training_epoch_end(self, outputs: List[Any]):
+        self.train_dice.reset()
 
     def validation_step(self, batch: Any, batch_idx: int):
         loss, preds, targets = self.step(batch)
 
         # log val metrics
-        # dice = self.val_dice(preds, targets)
+        dice = self.val_dice(preds, targets)
         self.log("val/loss", loss, on_step=False, on_epoch=True, prog_bar=False)
-        # self.log("val/dice", dice, on_step=False, on_epoch=True, prog_bar=True)
+        self.log("val/dice", dice, on_step=False, on_epoch=True, prog_bar=True)
 
-        return {"loss": loss, "preds": preds, "targets": targets}
+        return {"loss": loss}
 
-    # def validation_epoch_end(self, outputs: List[Any]):
-        # dice = self.val_dice.compute()  # get val accuracy from current epoch
-        # self.val_dice_best.update(dice)
-        # self.log("val/dice_best", self.val_dice_best.compute(), on_epoch=True, prog_bar=True)
-        # self.val_dice.reset()
+    def validation_epoch_end(self, outputs: List[Any]):
+        dice = self.val_dice.compute()  # get val accuracy from current epoch
+        self.val_dice_best.update(dice)
+        self.log("val/dice_best", self.val_dice_best.compute(), on_epoch=True, prog_bar=True)
+        self.val_dice.reset()
 
     def hybrid_loss(self, y_pred_seg, y_true_seg, y_pred_class, y_true_class):
         loss_seg = self.loss_fn_seg(y_pred_seg, y_true_seg)
@@ -113,7 +113,11 @@ class YnetLitModule(LightningModule):
         return loss
 
     def create_class_label(self, y, info):
-        associations = self.trainer.train_dataloader.dataset.datasets.iterator.dataset._associations
+        if self.training:
+            associations = self.trainer.train_dataloader.dataset.datasets.iterator.dataset._associations
+        else:
+            associations = self.trainer.val_dataloaders[0].dataset.iterator.dataset._associations
+
         y_class_true = torch.zeros(y.shape[0], y.shape[-1], device=self.device)
         for i in range(y.shape[0]):
             class_name = associations[info['sample_references'][0]['reference'].file_key][WholeSlideImageFile][
