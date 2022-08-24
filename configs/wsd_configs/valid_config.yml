@@ -1,0 +1,35 @@
+wholeslidedata:
+  default:
+    image_backend: asap
+
+    seed: 123
+    yaml_source: data.yml
+
+    label_map:
+      Normal: 1
+      Benign: 2
+      In-Situ: 3
+      Invasive: 4
+
+    label_sampler:
+      attribute: OrderedLabelSampler
+
+    annotation_sampler:
+      attribute: OrderedAnnotationSampler
+
+    point_sampler:
+      attribute: CenterPointSampler
+
+    batch_shape:
+      batch_size: 2
+      shape: [ [ 512, 512, 3 ], [ 512, 512, 3 ] ]
+      spacing: [ 0.5, 4.0 ]
+      y_shape: [ 2, 512, 512, 4 ]
+
+    sample_callbacks:
+      - module: wholeslidedata.samplers.callbacks
+        attribute: OneHotEncoding
+        labels: ${wholeslidedata:labels}
+    
+    dataset:
+      copy_path: /home/user/data

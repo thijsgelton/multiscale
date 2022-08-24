@@ -1,0 +1,83 @@
+#training:
+#  - wsa:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\xmls_with_normal\A01.xml
+#    wsi:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\wsis\A01.tif
+#  - wsa:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\xmls_with_normal\A02.xml
+#    wsi:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\wsis\A02.tif
+#  - wsa:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\xmls_with_normal\A03.xml
+#    wsi:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\wsis\A03.tif
+#  - wsa:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\xmls_with_normal\A04.xml
+#    wsi:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\wsis\A04.tif
+#  - wsa:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\xmls_with_normal\A05.xml
+#    wsi:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\wsis\A05.tif
+#  - wsa:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\xmls_with_normal\A06.xml
+#    wsi:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\wsis\A06.tif
+#  - wsa:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\xmls_with_normal\A07.xml
+#    wsi:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\wsis\A07.tif
+#  - wsa:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\xmls_with_normal\A08.xml
+#    wsi:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\wsis\A08.tif
+#  - wsa:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\xmls_with_normal\A09.xml
+#    wsi:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\wsis\A09.tif
+#  - wsa:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\xmls_with_normal\A10.xml
+#    wsi:
+#      path: Z:\projects\pathology-multires-segmentation\data\bachtrainingdata\data\tif_data\wsis\A10.tif
+training: &id001
+  - wsa:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/xmls_with_normal/A01.xml
+    wsi:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/wsis/A01.tif
+  - wsa:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/xmls_with_normal/A02.xml
+    wsi:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/wsis/A02.tif
+  - wsa:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/xmls_with_normal/A03.xml
+    wsi:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/wsis/A03.tif
+  - wsa:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/xmls_with_normal/A04.xml
+    wsi:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/wsis/A04.tif
+  - wsa:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/xmls_with_normal/A05.xml
+    wsi:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/wsis/A05.tif
+  - wsa:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/xmls_with_normal/A06.xml
+    wsi:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/wsis/A06.tif
+  - wsa:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/xmls_with_normal/A07.xml
+    wsi:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/wsis/A07.tif
+  - wsa:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/xmls_with_normal/A08.xml
+    wsi:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/wsis/A08.tif
+  - wsa:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/xmls_with_normal/A09.xml
+    wsi:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/wsis/A09.tif
+  - wsa:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/xmls_with_normal/A10.xml
+    wsi:
+      path: /data/pathology/projects/pathology-multires-segmentation/data/bachtrainingdata/data/tif_data/wsis/A10.tif
+validation: *id001

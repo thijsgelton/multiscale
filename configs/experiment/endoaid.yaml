@@ -1,0 +1,56 @@
+# @package _global_
+
+# to execute this experiment run:
+# python train.py experiment=example
+
+defaults:
+  - override /trainer: default.yaml
+  - override /datamodule: wsi.yaml
+  - override /callbacks: default.yaml
+  - override /logger: wandb.yaml
+  - override /model: nnunet.yaml
+
+# all parameters below will be merged with parameters from default configurations set above
+# this allows you to overwrite only specified parameters
+
+# name of the run determines folder name in logs
+name: "nnunet"
+
+seed: 12345
+
+trainer:
+  min_epochs: 50
+  max_epochs: 50
+  gpus: 1
+  precision: 16
+
+datamodule:
+  num_workers: 4
+  num_classes: 6
+  steps_per_epoch: 20
+  val_steps_per_epoch: 20
+  user_train_config: /data/pathology/projects/pathology-endoaid/nnunet-for-pathology/train_config.yml
+  user_val_config: /data/pathology/projects/pathology-endoaid/nnunet-for-pathology/valid_config.yml
+  context: fork
+
+model:
+  ignore_first_channel: False
+  patch_size: [ 1024, 1024 ] # TODO: Should be set only once and used in both datamodule and model module.
+  depth: 8
+  deep_supr_num: 7
+  use_cosine_scheduler: False
+  num_classes: 6
+  steps: 20
+
+log_dir:
+  hydra:
+    run:
+      dir: /data/pathology/projects/pathology-endoaid/nnunet-for-pathology/logs/experiments/runs/${name}/${now:%Y-%m-%d}_${now:%H-%M-%S}
+    job:
+      chdir: True
+
+
+#logger: null
+
+#  wandb:
+#    project: "nnunet-for-pathology"

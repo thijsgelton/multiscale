@@ -1,0 +1,45 @@
+# --------- pytorch --------- #
+torch>=1.10.0
+torchvision>=0.11.0
+pytorch-lightning>=1.5.10
+torchmetrics>=0.7.0
+
+# --------- hydra --------- #
+hydra-core>=1.1.0
+hydra-colorlog>=1.1.0
+hydra-optuna-sweeper>=1.1.0
+omegaconf>=2.1.2
+
+# --------- dataloading ---- #
+wholeslidedata>=0.0.13
+albumentations>=1.1.0
+
+# --------- loggers --------- #
+wandb
+# neptune-client
+# mlflow
+# comet-ml
+tensorboard
+
+# --------- linters --------- #
+pre-commit      # hooks for applying linters on commit
+black           # code formatting
+isort           # import sorting
+flake8          # code analysis
+nbstripout      # remove output from jupyter notebooks
+
+# --------- others --------- #
+python-dotenv>=0.20.0
+rich>=12.4.1
+pytest>=7.1.2
+sh>=1.14.2
+pudb            # debugger
+numpy>=1.22.3
+monai>=0.8.1
+scipy>=1.8.0
+scikit-image>=0.19.2
+packaging>=21.3
+PyYAML>=6.0
+gdown>=4.4.0
+matplotlib>=3.5.2
+setuptools==60.0.2  # bug fix

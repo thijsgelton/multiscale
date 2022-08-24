@@ -1,5 +1,7 @@
 wholeslidedata:
   default:
+    image_backend: openslide
+
     seed: 123
     yaml_source: data_split_stratified.yml
 
@@ -39,9 +41,9 @@ wholeslidedata:
 
     batch_shape:
       batch_size: 2
-      shape: [[512, 512, 3], [512, 512, 3]]
+      shape: [ [ 512, 512, 3 ], [ 512, 512, 3 ] ]
       spacing: [ 0.5, 4.0 ]
-      y_shape: [2, 512, 512, 6 ]
+      y_shape: [ 2, 512, 512, 6 ]
 
     sample_callbacks:
       - module: wholeslidedata.samplers.callbacks

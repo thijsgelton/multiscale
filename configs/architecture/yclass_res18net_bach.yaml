@@ -1,0 +1,15 @@
+_target_: multiscale.models.components.models.YclassRes18Net.YclassRes18Net
+
+cfg:
+  num_classes: 4
+  num_channels: 3
+  activation_function: "ReLU"
+  num_base_featuremaps: 64
+  encoder_featuremap_delay: 2
+  decoder_featuremaps_out: [ 512, 256, 256, 128, -1 ]
+  conv_norm_type: 'None'
+  depth_levels_down_main: [ [ 2, 3 ], [ 0, 3 ], [ 0, 1 ], [ 0, 1 ], [ 0, 1 ] ]  # [Convs,Res] each
+  depth_levels_down_tail: [ [ 2, 3 ], [ 0, 3 ], [ 0, 1 ], [ 0, 1 ], [ 0, 1 ] ]  # [Convs,Res] each
+  depth_levels_up: [ 1, 1, 1, 1, 1 ]  # Convs
+  depth_bottleneck: [ 0, 0, 0 ]  # [Conv,Res,Conv]
+  internal_prediction_activation: 'None'  # Softmax, Sigmoid or None. None for use with BCEWithLogitsLoss etc.

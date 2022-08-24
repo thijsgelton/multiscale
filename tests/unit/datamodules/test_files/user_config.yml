@@ -1,33 +1,13 @@
 wholeslidedata:
   default:
-    image_backend: openslide
-
+    image_backend: asap
     seed: 123
-    yaml_source: data_split_stratified.yml
+    yaml_source: data.yml
 
     label_map:
-      none: 0
-      epithelium benign: 1
-      epithelium hyperplasia: 2
-      epithelium atypia: 3
-      epithelium malignant: 4
-      rest: 5
-      stroma: 6
-      stroma malignant: 6
-      necrosis: 5
-      myometrium: 5
-
-    renamed_labels:
-      none: 0
-      epithelium benign: 1
-      epithelium hyperplasia: 2
-      epithelium atypia: 3
-      epithelium malignant: 4
-      rest: 5
-      stroma: 6
-
-    annotation_parser:
-      sample_label_names: [ 'none' ]
+      tumor: 1
+      lymphocytes: 2
+      stroma: 3
 
     label_sampler:
       attribute: OrderedLabelSampler
@@ -37,13 +17,13 @@ wholeslidedata:
 
     point_sampler:
       attribute: RandomPointSampler
-      buffer: -256
+      buffer: -512
 
     batch_shape:
-      batch_size: 2
-      shape: [ [ 512, 512, 3 ], [ 512, 512, 3 ] ]
-      spacing: [ 0.5, 4.0 ]
-      y_shape: [ 2, 512, 512, 6 ]
+      batch_size: 1
+      shape: [ [ 1024,1024,3 ], [ 1024,1024,3 ] ]
+      spacing: [ 0.5, 8.0 ]
+      y_shape: [ 2, 1024, 1024, 3 ]
 
     batch_callbacks:
       - module: wholeslidedata.accessories.albumentations.callbacks
@@ -58,6 +38,8 @@ wholeslidedata:
               sat_shift_limit: 0.3
               val_shift_limit: 0.2
               p: 0.5
+          - RandomGamma:
+              p: 0.3
           - GridDistortion:
               p: 1.0
           - RandomBrightnessContrast:
@@ -65,8 +47,10 @@ wholeslidedata:
 
     sample_callbacks:
       - module: wholeslidedata.samplers.callbacks
+        attribute: FitOutput
+        output_shape: [ 1024, 1024 ]
+
+      - module: wholeslidedata.samplers.callbacks
         attribute: OneHotEncoding
         labels: ${wholeslidedata:labels}
-    
-    dataset:
-      copy_path: /home/user/data
+
