@@ -8,4 +8,4 @@ count (){
 	    exit 1
 	fi
 }
-source activate nnunet_pathology
+source activate multiscale
